@@ -32,6 +32,7 @@ return {
         "cssls",
         "tailwindcss",
         "svelte",
+        "phpactor",
         "lua_ls",
         "graphql",
         "emmet_ls",
@@ -43,6 +44,7 @@ return {
     mason_tool_installer.setup({
       ensure_installed = {
         "prettier", -- prettier formatter
+        "phpcbf",
         "stylua", -- lua formatter
         "isort", -- python formatter
         "black", -- python formatter
