@@ -23,3 +23,5 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 -- shortcuts
 keymap.set("n", "<leader>ps", ":w<CR>", { desc = "Save file" })
 keymap.set("n", "<leader>pa", ":wa<CR>", { desc = "Save all files" })
+keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move code down" })
+keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move code up" })
